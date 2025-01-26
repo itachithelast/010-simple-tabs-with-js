@@ -34,14 +34,14 @@ body {
 .nav-item{
     outline: none;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     background-color: var(--button-color);
     border: 1px solid var(--text-color);
     list-style-type: none;
     box-shadow: inset 2px 2px 5px var(--element-bg-color),inset -2px -2px 5px var(--element-bg-color);
     transition: box-shadow 0.5s ease-in-out;
     border-radius: 30px;
-    font-size: smaller;
+    font-size: 0.7rem;
 }
 .nav-item:hover{
     box-shadow: inset 2px 2px 5px var(--text-color),inset -2px -2px 5px var(--text-color);
